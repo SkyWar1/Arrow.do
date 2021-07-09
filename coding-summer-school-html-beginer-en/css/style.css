@@ -1,0 +1,27 @@
+html {
+    scroll-behavior: smooth;
+}
+
+#header-section {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, .45), rgba(0, 0, 0, .45)), url(../images/1.jpg);
+    background-position: center center, center center;
+    background-size: cover, cover;
+    background-repeat: repeat, repeat;
+    height: 80vh;
+    
+}
+
+#parallax-section {
+    background-image: linear-gradient( rgba(0, 0, 0, .45), rgba(0, 0, 0, .45)), url(../images/27.jpg);
+    background-position: right bottom;
+    background-size: cover;
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+
+#footer-section {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, .45), rgba(0, 0, 0, .45)), url(../images/22.jpg);
+    background-position: center center, center center;
+    background-size: cover, cover;
+    background-repeat: repeat, repeat;
+}
